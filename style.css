@@ -2,3 +2,94 @@ body{
     font-family: Arial;
     background:#f5f5f5;
 }
+header{
+
+    background:brown;
+    color:white;
+    text-align:center;
+    padding:20px;
+
+}
+nav{
+
+    background:#333;
+    padding:10px;
+    text-align:center;
+
+}
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    margin:20px;
+
+}
+section{
+
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+
+}
+<section id="precos">
+
+<h2>Tabela de Preços</h2>
+
+<table>
+
+<tr>
+
+<th>Produto</th>
+<th>Unidade</th>
+<th>Preço Unitário</th>
+<th>Quantidade</th>
+<th>Total</th>
+
+</tr>
+
+<tr>
+
+<td>Farinha</td>
+<td>1 Kg</td>
+<td class="valor">R$ 6,00</td>
+<td>1 Kg</td>
+<td>R$ 6,00</td>
+
+</tr>
+
+<tr>
+
+<td>Leite</td>
+<td>1 Litro</td>
+<td>R$ 5,50</td>
+<td>1 Litro</td>
+<td>R$ 5,50</td>
+
+</tr>
+
+</table>
+
+</section>
+table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+th{
+
+    background:brown;
+    color:white;
+
+}
+
+td, th{
+
+    border:1px solid black;
+    padding:10px;
+    text-align:center;
+
+}
